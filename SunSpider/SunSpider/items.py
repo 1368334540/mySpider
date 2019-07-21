@@ -7,7 +7,7 @@
 
 import scrapy
 
-
+#记得给robot注释，记得给管道解除注释设置优先级，越小越优先300就好！
 class SunspiderItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
